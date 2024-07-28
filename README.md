@@ -70,7 +70,7 @@
 
 [ESP-32 NodeMCU Developmentboard Specification](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Specification.pdf)
 
-#### <a name="chapter2part2"></a>Chapter 2 - Part 3: ESP32 Developmentboard Pinout
+#### <a name="chapter2part3"></a>Chapter 2 - Part 3: ESP32 Developmentboard Pinout
 
 [ESP-32 NodeMCU Developmentboard Pinout](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Pinout.pdf)
 

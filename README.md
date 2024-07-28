@@ -98,7 +98,7 @@
 - **Circuit Assembly**
   - Connect an LED to the GPIO 2 pin of the ESP32 (positive side of the LED) and the other side to GND with a 220Ω resistor in series.
  
-  - **Code**:
+- **Code**:
 
  ```cpp
 void setup() {

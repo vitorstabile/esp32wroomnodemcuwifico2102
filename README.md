@@ -97,6 +97,12 @@
 
 #### <a name="chapter4part1"></a>Chapter 4 - Part 1: Blink an LED
 
+- **Necessary Components**
+  - 220Ω resistor
+  - LED
+  - ESP32
+  - jumpers
+
 - **Circuit Assembly**
   - Connect an LED to the GPIO 2 pin of the ESP32 (positive side of the LED) and the other side to GND with a 220Ω resistor in series.
  
@@ -121,3 +127,46 @@ void loop() {
   - Click the upload button (right arrow).
 
 #### <a name="chapter4part2"></a>Chapter 4 - Part 2: Temperature Sensor with DHT11
+
+- **Necessary Components**
+  - 220Ω resistor
+  - LED
+  - ESP32
+  - jumpers
+  - DHT11 sensor
+
+- **Circuit Assembly**
+  - Connect the data pin of the DHT11 to GPIO 4 of the ESP32, power to 3.3V, and GND.
+ 
+- **Code**:
+
+ ```cpp
+#include "DHT.h"
+
+#define DHTPIN 4     // DHT11 sensor pin
+#define DHTTYPE DHT11 // Sensor type
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+}
+
+void loop() {
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+  Serial.print("Humidity: ");
+  Serial.print(h);
+  Serial.print(" %\t");
+  Serial.print("Temperature: ");
+  Serial.print(t);
+  Serial.println(" *C ");
+  delay(2000);
+}
+```
+
+- **Upload the Code:**:
+  - Connect the ESP32 to the computer via USB.
+  - Select the correct board and port in Tools > Board and Tools > Port.
+  - Click the upload button (right arrow).

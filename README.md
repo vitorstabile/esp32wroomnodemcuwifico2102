@@ -8,7 +8,8 @@
     - [Chapter 1 - Part 3: Basic Tools](#chapter1part3)
 2. [Chapter 2: Introduction to the ESP32 Wroom](#chapter2)
     - [Chapter 2 - Part 1: ESP32 Features](#chapter2part1)
-    - [Chapter 2 - Part 2: ESP32 Pinout](#chapter2part2)
+    - [Chapter 2 - Part 2: ESP32 Developmentboard Specification](#chapter2part2)
+    - [Chapter 2 - Part 3: ESP32 Developmentboard Pinout](#chapter2part3)
 3. [Chapter 3: Setting Up the Development Environment](#chapter3)
     - [Chapter 3 - Part 1: Necessary Software](#chapter3part1)
     - [Chapter 3 - Part 2: Setup Steps](#chapter3part2)
@@ -65,9 +66,13 @@
 
 - **Protocols**: Supports SPI, I2C, UART, PWM, ADC, DAC, etc.
 
-#### <a name="chapter2part2"></a>Chapter 2 - Part 2: ESP32 Pinout
+#### <a name="chapter2part2"></a>Chapter 2 - Part 2: ESP32 Developmentboard Specification
 
-[ESP-32_NodeMCU Developmentboard Pinout](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Pinout.pdf)
+[ESP-32 NodeMCU Developmentboard Specification](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Specification.pdf)
+
+#### <a name="chapter2part2"></a>Chapter 2 - Part 3: ESP32 Developmentboard Pinout
+
+[ESP-32 NodeMCU Developmentboard Pinout](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Pinout.pdf)
 
 ## <a name="chapter3"></a>Chapter 3: Setting Up the Development Environment
 

@@ -67,6 +67,8 @@
 
 #### <a name="chapter2part2"></a>Chapter 2 - Part 2: ESP32 Pinout
 
+[ESP-32_NodeMCU Developmentboard Pinout](https://github.com/vitorstabile/esp32wroomnodemcuwifico2102/blob/main/img/ESP-32_NodeMCU_Developmentboard_Pinout.pdf)
+
 ## <a name="chapter3"></a>Chapter 3: Setting Up the Development Environment
 
 #### <a name="chapter3part1"></a>Chapter 3 - Part 1: Necessary Software
